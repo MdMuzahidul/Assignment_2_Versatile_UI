@@ -36,7 +36,7 @@
 .navbar {
     justify-content: space-between;
     align-items: center;
-    max-width: 1060px;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -80,10 +80,11 @@
 
 /* responsive layout for mobile device */
 @media screen and (max-width:576px) {
+
+    /* responsive navbar start */
     .navbar {
         justify-content: space-between;
         align-items: center;
-        max-width: 353px;
         margin: 0 auto;
     }
 
@@ -94,7 +95,8 @@
     .nav-icon {
         display: contents;
     }
-    .nav-icon>i{
+
+    .nav-icon>i {
         height: 24px;
         width: 24px;
     }
