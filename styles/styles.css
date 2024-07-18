@@ -23,16 +23,12 @@
     display: flex;
 }
 
-.display-hide {
-    display: none;
-}
-
 .bg-color {
     background-color: black;
 }
 
 /* header section styles */
-/* navbar styles */
+/* navbar styles start */
 .navbar {
     justify-content: space-between;
     align-items: center;
@@ -77,6 +73,10 @@
     border-radius: 46px;
     padding: 8px 12px;
 }
+
+/* hero section styles start */
+
+
 
 /* responsive layout for mobile device */
 @media screen and (max-width:576px) {
