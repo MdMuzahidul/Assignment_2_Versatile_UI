@@ -206,6 +206,7 @@
 
     max-width: 80%;
     margin: 0px auto;
+    margin-bottom: 59px;
     grid-template-columns: 2fr 1fr 1fr;
 }
 
@@ -250,6 +251,7 @@
 .line {
     width: 80%;
     border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 0px auto;
 }
 
 .copy-right {
@@ -266,6 +268,7 @@
     }
 
     .footer-container {
+        gap: 20px;
         grid-template-columns: 1fr;
     }
 
