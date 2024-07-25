@@ -14,7 +14,7 @@
     --text--color--secondary: #E6533C;
     --text--size--regular: 1.125rem;
     --text--size--large: 2.25rem;
-
+    --text--size--exlarge: 4rem;
 }
 
 /* shared styles */
@@ -23,8 +23,16 @@
     display: flex;
 }
 
+.display-grid {
+    display: grid;
+}
+
 .bg-color {
     background-color: black;
+}
+
+.tem-text-color {
+    color: white;
 }
 
 /* header section styles */
@@ -74,9 +82,6 @@
     padding: 8px 12px;
 }
 
-/* hero section styles start */
-
-
 
 /* responsive layout for mobile device */
 @media screen and (max-width:576px) {
@@ -101,4 +106,142 @@
         width: 24px;
     }
 
+}
+
+/* hero section styles start */
+
+.hero-section {
+    max-width: 80%;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.hero-contain {
+    max-width: 50%;
+}
+
+.hero-title {
+    font-size: var(--text--size--exlarge);
+    font-weight: 700;
+}
+
+#shape {
+    font-style: italic;
+    font-weight: 100;
+}
+
+.hero-text {
+    font-size: var(--text--size--regular);
+}
+
+.btn-join {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 48px;
+    margin-right: 20px;
+    font-size: var(--text--size--regular);
+    background-color: var(--text--color--secondary);
+    color: var(--text--color--primary);
+    cursor: pointer;
+}
+
+.btn-download {
+    padding: 10px 25px;
+    border: none;
+    border: 1px solid var(--text--color--primary);
+    border-radius: 48px;
+    margin-right: 20px;
+    background-color: transparent;
+    font-size: var(--text--size--regular);
+    color: var(--text--color--primary);
+    cursor: pointer;
+}
+
+.video {
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    background-color: var(--text--color--secondary);
+    border-radius: 50%;
+}
+
+
+/* footer section style start */
+
+.footer {
+    max-width: 100%;
+
+}
+
+.footer-container {
+    max-width: 80%;
+    margin: 30px auto;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.fitness {
+    margin-top: 70px;
+}
+
+.fitness-heading {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: var(--text--size--exlarge);
+    color: var(--text--color--secondary);
+}
+
+.fitness-text {
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.get-start-titale {
+    margin-bottom: 50px;
+    font-size: var(--text--size--large);
+    text-transform: capitalize;
+}
+
+.footer-list-item {
+    margin-bottom: 30px;
+    font-size: var(--text--size--regular);
+}
+
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    line-height: 20px;
+}
+
+.copy-right {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* responsive footer style */
+
+@media screen and (max-width:576px) {
+    .footer{
+        margin: 0 auto;
+    }
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+    .fitness-text{
+        width: 100%;
+    }
 }
