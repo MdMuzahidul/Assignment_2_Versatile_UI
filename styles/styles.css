@@ -349,7 +349,8 @@
     margin-bottom: 14px;
 }
 
-.run-text {
+.run-text,
+.form-text {
     color: var(--text--color--secondary);
     font-size: 0.9rem;
     margin-bottom: 34px;
@@ -416,7 +417,9 @@
 }
 
 .bmi-container {
+    justify-content: space-between;
     padding-top: 52px;
+    gap: 175px;
     max-width: 80%;
     margin: 0px auto;
 }
@@ -424,6 +427,11 @@
 .chart-taitle {
     font-size: 1.75rem;
     margin-bottom: 52px;
+}
+
+.form-taitle {
+    font-size: 1.75rem;
+    margin-bottom: 14px;
 }
 
 table {
@@ -438,7 +446,7 @@ th {
     border: 1px solid rgba(255, 255, 255, 0.1);
     text-align: left;
     padding-left: 18px;
-    
+
 }
 
 td {
