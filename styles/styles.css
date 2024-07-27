@@ -350,7 +350,8 @@
 }
 
 .run-text,
-.form-text {
+.form-text,
+.team-text {
     color: var(--text--color--secondary);
     font-size: 0.9rem;
     margin-bottom: 34px;
@@ -487,14 +488,16 @@ option {
 
 /* responsiv bmi style */
 @media screen and (max-width:576px) {
-    .taitle-container{
+    .taitle-container {
         margin: 50px auto;
         max-width: 353px;
     }
+
     .bmi-container {
         flex-direction: column;
         gap: 50px;
     }
+
     .form>form {
         margin: 0 auto;
         grid-template-columns: 160px 160px;
@@ -505,6 +508,41 @@ option {
         grid-column: span 2;
         margin-bottom: 34px;
     }
+}
+
+/* our team style */
+.our-team-container {
+    max-width: 671px;
+    margin: 160px auto 58px;
+    text-align: center;
+}
+
+.team-taitle {
+    font-size: 3rem;
+    line-height: 120%;
+    margin-bottom: 14px;
+}
+
+.image-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 88px;
+    background-color:rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 18px;
+}
+
+.image>img {
+    height: 100%;
+    width: 100%;
+    border-radius: 18px;
+}
+
+.image {
+    height: 272px;
+    width: 326px;
 }
 
 /* footer section style start */
