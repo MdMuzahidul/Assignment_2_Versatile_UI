@@ -419,6 +419,7 @@
 .bmi-container {
     justify-content: space-between;
     padding-top: 52px;
+    padding-bottom: 52px;
     gap: 175px;
     max-width: 80%;
     margin: 0px auto;
@@ -454,6 +455,56 @@ td {
     padding-left: 18px;
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.5);
+}
+
+.form>form {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.activity {
+    grid-column: span 2;
+    margin-bottom: 34px;
+}
+
+input,
+select {
+    padding: 12px 40px 12px 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+option {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* responsiv bmi style */
+@media screen and (max-width:576px) {
+    .taitle-container{
+        margin: 50px auto;
+        max-width: 353px;
+    }
+    .bmi-container {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .form>form {
+        margin: 0 auto;
+        grid-template-columns: 160px 160px;
+        gap: 10px;
+    }
+
+    .activity {
+        grid-column: span 2;
+        margin-bottom: 34px;
+    }
 }
 
 /* footer section style start */
