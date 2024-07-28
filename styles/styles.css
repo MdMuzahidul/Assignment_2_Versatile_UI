@@ -45,7 +45,7 @@
 
 .btn-primary {
     height: 54px;
-    width: 224px;
+    width: auto;
     padding: 16px 40px;
     border: none;
     border-radius: 42px;
@@ -55,6 +55,7 @@
     color: var(--text--color--primary);
     line-height: 22px;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 /* header section styles */
@@ -156,6 +157,7 @@
     font-weight: 900;
     line-height: 120%;
     margin-top: 64px;
+    /* white-space: nowrap; */
 }
 
 #shape {
@@ -186,6 +188,7 @@
     color: var(--text--color--primary);
     line-height: 22px;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .video {
@@ -529,7 +532,7 @@ option {
     width: 80%;
     margin: 0px auto;
     margin-bottom: 88px;
-    background-color:rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 18px;
 }
@@ -542,7 +545,26 @@ option {
 
 .image {
     height: 272px;
-    width: 326px;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+}
+
+@media screen and (max-width:576px) {
+    .our-team-container {
+        max-width: 671px;
+        margin: 160px auto 58px;
+        text-align: center;
+    }
+
+    .image-container {
+        grid-template-columns: 1fr;
+        padding: 20px 10px;
+        gap: 30px;
+    }
+
+    .image {
+        margin: 0 auto;
+    }
 }
 
 /* footer section style start */
