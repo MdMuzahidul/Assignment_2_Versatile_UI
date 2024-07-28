@@ -394,6 +394,9 @@
         background-size: 335.395% 258.887%;
         background-repeat: no-repeat;
     }
+    .btn-run{
+        width: 100%;
+    }
 }
 
 /* BMI calculator style start  */
@@ -549,6 +552,19 @@ option {
     margin: 10px auto;
 }
 
+.inner-image-text {
+    margin-top: -60px;
+    margin-left: 20px;
+}
+
+.inner-image-text>h4 {
+    font-size: 1.2rem;
+    line-height: 120%;
+}
+.inner-image-text>p{
+    color: var(--text--color--secondary);
+    font-size: 0.9rem;
+}
 @media screen and (max-width:576px) {
     .our-team-container {
         max-width: 671px;
