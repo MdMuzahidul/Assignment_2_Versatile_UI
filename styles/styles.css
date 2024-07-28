@@ -45,7 +45,7 @@
 
 .btn-primary {
     height: 54px;
-    width: auto;
+    width: 224px;
     padding: 16px 40px;
     border: none;
     border-radius: 42px;
@@ -141,6 +141,7 @@
 /* hero section styles start */
 
 .hero-section {
+    justify-content: space-between;
     max-width: 80%;
     margin: 0 auto;
     margin-bottom: 38px;
@@ -148,7 +149,7 @@
 }
 
 .hero-contain {
-    max-width: 50%;
+    max-width: 100%;
     padding-right: 79px;
 }
 
@@ -157,7 +158,7 @@
     font-weight: 900;
     line-height: 120%;
     margin-top: 64px;
-    /* white-space: nowrap; */
+    white-space: nowrap;
 }
 
 #shape {
@@ -239,6 +240,14 @@
         max-width: 80%;
         padding-right: 79px;
     }
+
+    .hero-contain,
+    .hero-image {
+        width: 100%;
+    }
+    .hero-image>img{
+        width: 100%;
+    }
 }
 
 /* main section style start */
@@ -298,6 +307,7 @@
 }
 
 .habit-text-container {
+    margin: 0px auto;
     max-width: 231px;
     text-align: center;
 }
@@ -394,7 +404,8 @@
         background-size: 335.395% 258.887%;
         background-repeat: no-repeat;
     }
-    .btn-run{
+
+    .btn-run {
         width: 100%;
     }
 }
@@ -561,10 +572,12 @@ option {
     font-size: 1.2rem;
     line-height: 120%;
 }
-.inner-image-text>p{
+
+.inner-image-text>p {
     color: var(--text--color--secondary);
     font-size: 0.9rem;
 }
+
 @media screen and (max-width:576px) {
     .our-team-container {
         max-width: 671px;
