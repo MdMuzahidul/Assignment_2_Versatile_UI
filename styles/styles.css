@@ -284,6 +284,7 @@
         left: -80px;
         top: -280px
     }
+
     .btn-primary {
         height: 54px;
         width: 169px;
@@ -298,6 +299,7 @@
         cursor: pointer;
         white-space: nowrap;
     }
+
     .btn-download {
         height: 54px;
         width: 169px;
@@ -448,7 +450,6 @@
 
 @media screen and (max-width:576px) {
     .run {
-
         flex-direction: column;
         text-align: center;
         margin: 0px auto;
@@ -474,18 +475,94 @@
     }
 }
 
+/*  healthy diet start */
+.healthy-diet-images-container {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.healty-diet-image-cintainer {
+    max-width: 80%;
+    margin: 0px auto;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    padding: 50px;
+    border-radius: 18px;
+    /* padding: 100px; */
+}
+
+.healthy-image {
+    width: 500px;
+    /* height: 300px; */
+}
+
+.healthy-image>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+.image-text-container {
+    max-width: 450px;
+    padding: 20px;
+}
+
+.taitle {
+    font-size: 1.5rem;
+    margin-bottom: 14px;
+    text-transform: capitalize;
+    line-height: 120%;
+}
+
+.text {
+    color: var(--text--color--secondary);
+    font-size: 0.9rem;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    margin-bottom: 14px;
+}
+
+.image-text-container>button {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E6533C;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:576px) {
+    .healty-diet-image-cintainer {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .healthy-image {
+        max-width: 350px;
+    }
+
+    .image-text-container {
+        max-width: 350px;
+    }
+
+}
+
 /* BMI calculator style start  */
+.healthy-diet-container,
 .taitle-container {
     max-width: 671px;
     margin: 100px auto;
 }
 
+.healthy-diet-taitle,
 .bmi-calculator-taitle {
     font-size: 3rem;
     line-height: 120%;
     margin-bottom: 14px;
 }
 
+.healthy-diet-text,
 .bmi-text {
     font-size: 0.9rem;
     line-height: 24px;
@@ -569,6 +646,8 @@ option {
 
 /* responsiv bmi style */
 @media screen and (max-width:576px) {
+
+    .healthy-diet-container,
     .taitle-container {
         margin: 50px auto;
         max-width: 353px;
@@ -592,11 +671,13 @@ option {
 }
 
 /* our team style */
+
 .our-team-container {
     max-width: 671px;
     margin: 160px auto 58px;
     text-align: center;
 }
+
 
 .team-taitle {
     font-size: 3rem;
