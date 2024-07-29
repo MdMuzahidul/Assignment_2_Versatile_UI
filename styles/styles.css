@@ -45,7 +45,7 @@
 
 .btn-primary {
     height: 54px;
-    width: 315px;
+    width: 224px;
     padding: 16px 40px;
     border: none;
     border-radius: 42px;
@@ -179,7 +179,7 @@
 
 .btn-download {
     height: 54px;
-    width: auto;
+    width: 224px;
     padding: 16px 40px;
     border: 1px solid var(--text--color--primary);
     border-radius: 42px;
@@ -283,6 +283,34 @@
         position: relative;
         left: -80px;
         top: -280px
+    }
+    .btn-primary {
+        height: 54px;
+        width: 169px;
+        padding: 16px 40px;
+        border: none;
+        border-radius: 42px;
+        font-weight: 500;
+        font-size: var(--text--size--regular);
+        background-color: var(--text--color--third);
+        color: var(--text--color--primary);
+        line-height: 22px;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+    .btn-download {
+        height: 54px;
+        width: 169px;
+        padding: 16px 20px;
+        border: 1px solid var(--text--color--primary);
+        border-radius: 42px;
+        font-weight: 500;
+        font-size: var(--text--size--regular);
+        background-color: transparent;
+        color: var(--text--color--primary);
+        line-height: 22px;
+        cursor: pointer;
+        white-space: nowrap;
     }
 }
 
