@@ -141,6 +141,7 @@
 /* hero section styles start */
 
 .hero-section {
+    position: relative;
     justify-content: space-between;
     max-width: 80%;
     margin: 0 auto;
@@ -162,15 +163,27 @@
 }
 
 #shape {
+    font-size: 10rem;
     font-family: 'Miama', sans-serif;
     font-weight: 400;
     line-height: 120%;
+}
+
+#line2 {
+    position: absolute;
+    top: 120px;
+}
+
+#line3 {
+    position: absolute;
+    top: 240px
 }
 
 .hero-text {
     font-size: var(--text--size--regular);
     color: var(--text--color--secondary);
     margin: 28px 0px;
+    margin-top: 100px;
 }
 
 .btn {
@@ -260,6 +273,16 @@
         height: 700px;
         width: 353px;
         align-items: center;
+    }
+
+    #shape {
+        font-size: 8rem;
+    }
+    #line2{
+        top:100px;
+    }
+    #line3{
+        top:210px;
     }
 
     .hero-image-container>img {
@@ -525,11 +548,13 @@
 }
 
 .image-text-container>button {
-    padding: 5px;
+    font-size: 0.9rem;
+    padding: 5px 10px;
     border: none;
     border-radius: 5px;
     background-color: #E6533C;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 @media screen and (max-width:576px) {
