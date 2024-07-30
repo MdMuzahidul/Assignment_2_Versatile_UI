@@ -62,6 +62,7 @@
 /* navbar styles start */
 .header {
     background: linear-gradient(to top, rgba(119, 119, 119, 0), rgba(17, 17, 17, 1), rgba(119, 119, 119, 0));
+    padding-bottom: 30px;
 }
 
 .navbar {
@@ -116,6 +117,9 @@
 @media screen and (max-width:576px) {
 
     /* responsive navbar start */
+    .header{
+        padding-bottom: 0px;
+    }
     .navbar {
         justify-content: space-between;
         align-items: center;
@@ -578,6 +582,9 @@
 .taitle-container {
     max-width: 671px;
     margin: 100px auto;
+}
+.taitle-container{
+    padding-top: 100px;
 }
 
 .healthy-diet-taitle,
