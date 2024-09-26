@@ -272,20 +272,33 @@
                     id=""
                     placeholder="Weight/kg"
                   />
-                  <input type="text" name="" id="" placeholder="Age" />
-                  <select class="gender">
+                  <input
+                    id="age"
+                    type="text"
+                    name=""
+                    id="age"
+                    placeholder="Age"
+                  />
+                  <select class="gender" id="gender">
                     <option selected disabled>sex</option>
                     <option value="">male</option>
                     <option value="">female</option>
                     <option value="">other</option>
                   </select>
-                  <select class="activity">
+                  <select class="activity" id="activity">
                     <option selected disabled>Select an activity factor</option>
                     <option value="">male</option>
                     <option value="">female</option>
                     <option value="">other</option>
                   </select>
-                  <button id="btn-bmi" class="btn-primary">Calculate</button>
+                  <button
+                    id="btn-bmi"
+                    type="submit"
+                    onclick="clearForm()"
+                    class="btn-primary"
+                  >
+                    Calculate
+                  </button>
                 </form>
               </div>
             </div>

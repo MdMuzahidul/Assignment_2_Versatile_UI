@@ -8,24 +8,18 @@ document.getElementById("btn-bmi").addEventListener("click", function (event) {
   const healthy = document.getElementById("healthy");
   const overweight = document.getElementById("overweight");
   const obese = document.getElementById("obese");
-
   if (bmi < 18.5) {
     underweight.style.backgroundColor = "blue";
-    underweight.style.fontWeight = "bold";
-    underweight.style.fontSize = "4rem";
-    underweight.style.color = "#ffffff";
     healthy.removeAttribute("style");
     overweight.removeAttribute("style");
     obese.removeAttribute("style");
-    weight.value = "";
-    height.value = "";
   } else if (bmi < 24.9) {
     healthy.style.backgroundColor = "green";
     underweight.removeAttribute("style");
     overweight.removeAttribute("style");
     obese.removeAttribute("style");
   } else if (bmi < 29.9) {
-    overweight.style.backgroundColor = "yellow";
+    overweight.style.backgroundColor = "#9BEC00";
     healthy.removeAttribute("style");
     underweight.removeAttribute("style");
     obese.removeAttribute("style");
@@ -36,3 +30,10 @@ document.getElementById("btn-bmi").addEventListener("click", function (event) {
     underweight.removeAttribute("style");
   }
 });
+function clearForm() {
+  document.getElementById("weight").value = "";
+  document.getElementById("height").value = "";
+  document.getElementById("age").value = "";
+  document.getElementById("activity").selectedIndex = 0;
+  document.getElementById("gender").selectedIndex = 0;
+}
