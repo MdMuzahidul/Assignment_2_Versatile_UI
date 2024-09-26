@@ -1,319 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment_2_Versatile_UI</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<body class="inter-font bg-color">
+  <body class="inter-font bg-color">
     <header class="header">
-        <div class="navbar display-flex">
-            <h1 class="navlogo">
-                Fitness
-            </h1>
-            <div class="nav-manu">
-                <ul class="nav-items display-flex">
-                    <li class="nav-item" id="home"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Service</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                </ul>
-            </div>
-            <div class="nav-icon">
-                <i class="fa-solid fa-bars"></i>
-            </div>
+      <div class="navbar display-flex">
+        <h1 class="navlogo">Fitness</h1>
+        <div class="nav-manu">
+          <ul class="nav-items display-flex">
+            <li class="nav-item" id="home">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Service</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          </ul>
         </div>
-        <div class="hero-section tem-text-color display-flex">
-            <div class="hero-contain">
-                <h1 class="hero-title"> <span id="line1">Get body in </span> <br> <span id="line2"> <span
-                            id="shape">shape</span> & stay </span> <br> <span id="line3"> healthy</span>
-                </h1>
-                <p class="hero-text">A huge selection of health and fitness content, healthy recipes and transformation
-                    stories to help you get fit and stay fit!</p>
-                <div class="btn display-flex">
-                    <button class="btn-primary btn1">Join Now</button>
-                    <button class="btn-download">Download App</button>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="hero-image-container">
-                    <img src="images/Images 2.png" alt="standing man">
-                </div>
-                <div class="video display-flex">
-                    <div class="circle"></div>
-                    <div class="btn-contain">
-                        <h3 class="btn-title">350+</h3>
-                        <p class="btn-text">video tutorial</p>
-                    </div>
-                </div>
-                <div class="free-vedio display-flex">
-                    <h3 class="btn-title">500+</h3>
-                    <p class="btn-text">Free workout videos</p>
-                </div>
-            </div>
+        <div class="nav-icon">
+          <i class="fa-solid fa-bars"></i>
         </div>
+      </div>
+      <div class="hero-section tem-text-color display-flex">
+        <div class="hero-contain">
+          <h1 class="hero-title">
+            <span id="line1">Get body in </span> <br />
+            <span id="line2"> <span id="shape">shape</span> & stay </span>
+            <br />
+            <span id="line3"> healthy</span>
+          </h1>
+          <p class="hero-text">
+            A huge selection of health and fitness content, healthy recipes and
+            transformation stories to help you get fit and stay fit!
+          </p>
+          <div class="btn display-flex">
+            <button class="btn-primary btn1">Join Now</button>
+            <button class="btn-download">Download App</button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="hero-image-container">
+            <img src="images/Images 2.png" alt="standing man" />
+          </div>
+          <div class="video display-flex">
+            <div class="circle"></div>
+            <div class="btn-contain">
+              <h3 class="btn-title">350+</h3>
+              <p class="btn-text">video tutorial</p>
+            </div>
+          </div>
+          <div class="free-vedio display-flex">
+            <h3 class="btn-title">500+</h3>
+            <p class="btn-text">Free workout videos</p>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
-        <section class="change-your-habits tem-text-color">
-            <h1 class="habit-tital">Change Your Habits</h1>
-            <div class="habite-text-container">
-                <p class="habit-text">We believe fitness should be accessible to everyone, everywhere, regardless of
-                    income or access to a gym.</p>
+      <section class="change-your-habits tem-text-color">
+        <h1 class="habit-tital">Change Your Habits</h1>
+        <div class="habite-text-container">
+          <p class="habit-text">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
+        </div>
+        <div class="habits-card-containar display-grid">
+          <div class="habit-items">
+            <div class="habit-image">
+              <img src="images/image 3.png" alt="" />
             </div>
-            <div class="habits-card-containar display-grid">
-                <div class="habit-items">
-                    <div class="habit-image">
-                        <img src="images/image 3.png" alt="">
-                    </div>
-                    <h3 class="habits-item-taitle">Movement</h3>
-                    <div class="habit-text-container">
-                        <p class="habits-item-text">We believe fitness should be accessible to everyone</p>
-                    </div>
-                </div>
-                <div class="habit-items">
-                    <div class="habit-image">
-                        <img src="images/image 2.png" alt="">
-                    </div>
-                    <h3 class="habits-item-taitle">time</h3>
-                    <div class="habit-text-container">
-                        <p class="habits-item-text">We believe fitness should be accessible to everyone</p>
-                    </div>
-                </div>
-                <div class="habit-items">
-                    <div class="habit-image">
-                        <img src="images/image 4.png" alt="">
-                    </div>
-                    <h3 class="habits-item-taitle">Practice</h3>
-                    <div class="habit-text-container">
-                        <p class="habits-item-text">We believe fitness should be accessible to everyone</p>
-                    </div>
-                </div>
-                <div class="habit-items">
-                    <div class="habit-image">
-                        <img src="images/image 5.png" alt="">
-                    </div>
-                    <h3 class="habits-item-taitle">Weight Loss</h3>
-                    <div class="habit-text-container">
-                        <p class="habits-item-text">We believe fitness should be accessible to everyone</p>
-                    </div>
-                </div>
+            <h3 class="habits-item-taitle">Movement</h3>
+            <div class="habit-text-container">
+              <p class="habits-item-text">
+                We believe fitness should be accessible to everyone
+              </p>
             </div>
-        </section>
-        <section class="run tem-text-color display-flex">
-            <div class="run-container">
-                <h1 class="run-taitle">Run an Extra Mile Easily</h1>
-                <p class="run-text">We believe fitness should be accessible to everyone, everywhere, regardless of
-                    income or access to a gym. With hundreds of professional workouts.</p>
-                <button class="btn-primary btn-run">join now</button>
+          </div>
+          <div class="habit-items">
+            <div class="habit-image">
+              <img src="images/image 2.png" alt="" />
             </div>
-            <div class="run-image">
+            <h3 class="habits-item-taitle">time</h3>
+            <div class="habit-text-container">
+              <p class="habits-item-text">
+                We believe fitness should be accessible to everyone
+              </p>
             </div>
-        </section>
-        <section class="healthy-diet tem-text-color">
-            <div class="healthy-diet-container">
-                <h1 class="healthy-diet-taitle">Healthy Diet for fitness</h1>
-                <p class="healthy-diet-text">A healthy diet is a diet that maintains or improves overall health. A
-                    healthy
-                    diet provides the body with essential nutrition: fluid, macronutrients such as protein,
-                    micronutrients
-                    such as vitamins, and adequate fibre and food energy</p>
+          </div>
+          <div class="habit-items">
+            <div class="habit-image">
+              <img src="images/image 4.png" alt="" />
             </div>
-            <div class="healthy-diet-images-container display-flex">
-                <div class="healty-diet-image-cintainer display-flex">
-                    <div class="healthy-image">
-                        <img src="images/493ss_Thinkstock_rf_whole_grain_cereal.webp" alt="">
-                    </div>
-                    <div class="image-text-container">
-                        <h3 class="taitle">Start With Whole-Grain Cereal</h3>
-                        <p class="text">If you don’t have enough to eat before you exercise, you may not have enough gas
-                            in the tank. You might burn fewer calories, too. Have some healthy carbs at least an hour in
-                            advance of your workout. </p>
-                        <button>see more</button>
-                    </div>
-                </div>
-                <div class="healty-diet-image-cintainer display-flex">
-                    <div class="healthy-image">
-                        <img src="images/banana_and_apples.webp" alt="">
-                    </div>
-                    <div class="image-text-container">
-                        <h3 class="taitle"> Grab a Banana</h3>
-                        <p class="text">Don’t have much time before you head to the gym? Eat an apple or a banana 5 or
-                            10 minutes before your workout for some quick, natural energy.
-                            Your body easily digests these carbohydrates and turns them into the energy you need for
-                            exercise. Also, fruit is packed with helpful nutrients. </p>
-                        <button>see more</button>
-                    </div>
-                </div>
-                <div class="healty-diet-image-cintainer display-flex">
-                    <div class="healthy-image">
-                        <img src="images/energy_bar.webp" alt="">
-                    </div>
-                    <div class="image-text-container">
-                        <h3 class="taitle">An Energy Bar in the Afternoon</h3>
-                        <p class="text">When you’re working out later in the day, have a small snack about an hour
-                            before you get started. A sports bar that has 200 calories or less is a good option.
-                            Look for a bar with low-fiber content, ideally 3 grams or less. Too much fiber before a
-                            workout can upset your stomach. </p>
-                        <button>see more</button>
-                    </div>
-                </div>
-                <div class="healty-diet-image-cintainer display-flex">
-                    <div class="healthy-image">
-                        <img src="images/grilled_chicken_breast.webp" alt="">
-                    </div>
-                    <div class="image-text-container">
-                        <h3 class="taitle">Grilled Chicken at Mealtime</h3>
-                        <p class="text">When you exercise regularly, you need more protein than people who don’t, especially after a workout. Your body uses it to repair muscles, to make blood cells, and for many other purposes. For lunch or dinner, serve a leaner source, like grilled chicken or turkey, instead of something like a cheeseburger.</p>
-                        <button>see more</button>
-                    </div>
-                </div>
+            <h3 class="habits-item-taitle">Practice</h3>
+            <div class="habit-text-container">
+              <p class="habits-item-text">
+                We believe fitness should be accessible to everyone
+              </p>
             </div>
-        </section>
-        <section class="bmi-calculator tem-text-color">
-            <div class="taitle-container">
-                <h1 class="bmi-calculator-taitle">BMI Calculator</h1>
-                <p class="bmi-text">We believe fitness should be accessible to everyone, everywhere, regardless of
-                    income or access to a gym.</p>
+          </div>
+          <div class="habit-items">
+            <div class="habit-image">
+              <img src="images/image 5.png" alt="" />
             </div>
-            <div class="bmi-continer-section">
-                <div class="bmi-container display-flex">
-                    <div class="bmi-chart">
-                        <h3 class="chart-taitle">BMI Calculator Chart</h3>
-                        <table>
-                            <tr>
-                                <th>BMI</th>
-                                <th>Weight Status</th>
-                            </tr>
-                            <tr>
-                                <td>Below 18.5</td>
-                                <td>Underweight</td>
-                            </tr>
-                            <tr>
-                                <td>18.5 - 24.9</td>
-                                <td>Healthy</td>
-                            </tr>
-                            <tr>
-                                <td>25.0 - 29.9</td>
-                                <td>Overweight</td>
-                            </tr>
-                            <tr>
-                                <td>30.0 - and Above</td>
-                                <td>Obese</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="bmi-form">
-                        <h3 class="form-taitle">Calculate your BMI</h3>
-                        <p class="form-text">We believe fitness should be accessible to everyone, everywhere, regardless
-                            of income or access to a gym. </p>
-                        <div class="form">
-                            <form action="" class="display-grid">
-                                <input type="text" name="" id="" placeholder="Height/cm">
-                                <input type="text" name="" id="" placeholder="Weight/kg">
-                                <input type="text" name="" id="" placeholder="Age">
-                                <select class="gender">
-                                    <option selected disabled>sex</option>
-                                    <option value="">male</option>
-                                    <option value="">female</option>
-                                    <option value="">other</option>
-                                </select>
-                                <select class="activity">
-                                    <option selected disabled>Select an activity factor</option>
-                                    <option value="">male</option>
-                                    <option value="">female</option>
-                                    <option value="">other</option>
-                                </select>
-                                <button type="submit" class="btn-primary">Calculate</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+            <h3 class="habits-item-taitle">Weight Loss</h3>
+            <div class="habit-text-container">
+              <p class="habits-item-text">
+                We believe fitness should be accessible to everyone
+              </p>
             </div>
-        </section>
-        <section class="our-team tem-text-color">
-            <div class="our-team-container">
-                <h1 class="team-taitle">Meet Our Team</h1>
-                <p class="team-text">We believe fitness should be accessible to everyone, everywhere, regardless of
-                    income or access to a gym.</p>
+          </div>
+        </div>
+      </section>
+      <section class="run tem-text-color display-flex">
+        <div class="run-container">
+          <h1 class="run-taitle">Run an Extra Mile Easily</h1>
+          <p class="run-text">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym. With hundreds of
+            professional workouts.
+          </p>
+          <button class="btn-primary btn-run">join now</button>
+        </div>
+        <div class="run-image"></div>
+      </section>
+      <section class="healthy-diet tem-text-color">
+        <div class="healthy-diet-container">
+          <h1 class="healthy-diet-taitle">Healthy Diet for fitness</h1>
+          <p class="healthy-diet-text">
+            A healthy diet is a diet that maintains or improves overall health.
+            A healthy diet provides the body with essential nutrition: fluid,
+            macronutrients such as protein, micronutrients such as vitamins, and
+            adequate fibre and food energy
+          </p>
+        </div>
+        <div class="healthy-diet-images-container display-flex">
+          <div class="healty-diet-image-cintainer display-flex">
+            <div class="healthy-image">
+              <img
+                src="images/493ss_Thinkstock_rf_whole_grain_cereal.webp"
+                alt=""
+              />
             </div>
-            <div class="image-container display-grid">
-                <div class="image"><img src="images/trainer1.png" alt="">
-                    <div class="inner-image-text">
-                        <h4>Jerome Bell</h4>
-                        <p>Trainer</p>
-                    </div>
-                </div>
-                <div class="image"><img src="images/trainer2.png" alt="">
-                    <div class="inner-image-text">
-                        <h4>Cameron Williamson</h4>
-                        <p>Trainer</p>
-                    </div>
-                </div>
-                <div class="image"><img src="images/trainer3.png" alt="">
-                    <div class="inner-image-text">
-                        <h4>Darrell Steward</h4>
-                        <p>Trainer</p>
-                    </div>
-                </div>
-                <div class="image"><img src="images/trainer4.png" alt="">
-                    <div class="inner-image-text">
-                        <h4>Dianne Russell</h4>
-                        <p>Trainer</p>
-                    </div>
-                </div>
-                <div class="image"><img src="images/trainer5.png" alt="">
-                    <div class="inner-image-text">
-                        <h4>Cody Fisher</h4>
-                        <p>Trainer</p>
-                    </div>
-                </div>
-                <div class="image"><img src="images/trainer6.png" alt="">
-                    <div class="inner-image-text">
-                        <h4>Theresa Webb</h4>
-                        <p>Trainer</p>
-                    </div>
-                </div>
+            <div class="image-text-container">
+              <h3 class="taitle">Start With Whole-Grain Cereal</h3>
+              <p class="text">
+                If you don’t have enough to eat before you exercise, you may not
+                have enough gas in the tank. You might burn fewer calories, too.
+                Have some healthy carbs at least an hour in advance of your
+                workout.
+              </p>
+              <button>see more</button>
             </div>
-        </section>
+          </div>
+          <div class="healty-diet-image-cintainer display-flex">
+            <div class="healthy-image">
+              <img src="images/banana_and_apples.webp" alt="" />
+            </div>
+            <div class="image-text-container">
+              <h3 class="taitle">Grab a Banana</h3>
+              <p class="text">
+                Don’t have much time before you head to the gym? Eat an apple or
+                a banana 5 or 10 minutes before your workout for some quick,
+                natural energy. Your body easily digests these carbohydrates and
+                turns them into the energy you need for exercise. Also, fruit is
+                packed with helpful nutrients.
+              </p>
+              <button>see more</button>
+            </div>
+          </div>
+          <div class="healty-diet-image-cintainer display-flex">
+            <div class="healthy-image">
+              <img src="images/energy_bar.webp" alt="" />
+            </div>
+            <div class="image-text-container">
+              <h3 class="taitle">An Energy Bar in the Afternoon</h3>
+              <p class="text">
+                When you’re working out later in the day, have a small snack
+                about an hour before you get started. A sports bar that has 200
+                calories or less is a good option. Look for a bar with low-fiber
+                content, ideally 3 grams or less. Too much fiber before a
+                workout can upset your stomach.
+              </p>
+              <button>see more</button>
+            </div>
+          </div>
+          <div class="healty-diet-image-cintainer display-flex">
+            <div class="healthy-image">
+              <img src="images/grilled_chicken_breast.webp" alt="" />
+            </div>
+            <div class="image-text-container">
+              <h3 class="taitle">Grilled Chicken at Mealtime</h3>
+              <p class="text">
+                When you exercise regularly, you need more protein than people
+                who don’t, especially after a workout. Your body uses it to
+                repair muscles, to make blood cells, and for many other
+                purposes. For lunch or dinner, serve a leaner source, like
+                grilled chicken or turkey, instead of something like a
+                cheeseburger.
+              </p>
+              <button>see more</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bmi-calculator tem-text-color">
+        <div class="taitle-container">
+          <h1 class="bmi-calculator-taitle">BMI Calculator</h1>
+          <p class="bmi-text">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
+        </div>
+        <div class="bmi-continer-section">
+          <div class="bmi-container display-flex">
+            <div class="bmi-chart">
+              <h3 class="chart-taitle">BMI Calculator Chart</h3>
+              <table>
+                <tr>
+                  <th>BMI</th>
+                  <th>Weight Status</th>
+                </tr>
+                <tr id="underweight">
+                  <td>Below 18.5</td>
+                  <td>Underweight</td>
+                </tr>
+                <tr id="healthy">
+                  <td>18.5 - 24.9</td>
+                  <td>Healthy</td>
+                </tr>
+                <tr id="overweight">
+                  <td>25.0 - 29.9</td>
+                  <td>Overweight</td>
+                </tr>
+                <tr id="obese">
+                  <td>30.0 - and Above</td>
+                  <td>Obese</td>
+                </tr>
+              </table>
+            </div>
+            <div class="bmi-form">
+              <h3 class="form-taitle">Calculate your BMI</h3>
+              <p class="form-text">
+                We believe fitness should be accessible to everyone, everywhere,
+                regardless of income or access to a gym.
+              </p>
+              <div class="form">
+                <form class="display-grid">
+                  <input
+                    id="height"
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Height/cm"
+                  />
+                  <input
+                    id="weight"
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Weight/kg"
+                  />
+                  <input type="text" name="" id="" placeholder="Age" />
+                  <select class="gender">
+                    <option selected disabled>sex</option>
+                    <option value="">male</option>
+                    <option value="">female</option>
+                    <option value="">other</option>
+                  </select>
+                  <select class="activity">
+                    <option selected disabled>Select an activity factor</option>
+                    <option value="">male</option>
+                    <option value="">female</option>
+                    <option value="">other</option>
+                  </select>
+                  <button id="btn-bmi" class="btn-primary">Calculate</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="our-team tem-text-color">
+        <div class="our-team-container">
+          <h1 class="team-taitle">Meet Our Team</h1>
+          <p class="team-text">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
+        </div>
+        <div class="image-container display-grid">
+          <div class="image">
+            <img src="images/trainer1.png" alt="" />
+            <div class="inner-image-text">
+              <h4>Jerome Bell</h4>
+              <p>Trainer</p>
+            </div>
+          </div>
+          <div class="image">
+            <img src="images/trainer2.png" alt="" />
+            <div class="inner-image-text">
+              <h4>Cameron Williamson</h4>
+              <p>Trainer</p>
+            </div>
+          </div>
+          <div class="image">
+            <img src="images/trainer3.png" alt="" />
+            <div class="inner-image-text">
+              <h4>Darrell Steward</h4>
+              <p>Trainer</p>
+            </div>
+          </div>
+          <div class="image">
+            <img src="images/trainer4.png" alt="" />
+            <div class="inner-image-text">
+              <h4>Dianne Russell</h4>
+              <p>Trainer</p>
+            </div>
+          </div>
+          <div class="image">
+            <img src="images/trainer5.png" alt="" />
+            <div class="inner-image-text">
+              <h4>Cody Fisher</h4>
+              <p>Trainer</p>
+            </div>
+          </div>
+          <div class="image">
+            <img src="images/trainer6.png" alt="" />
+            <div class="inner-image-text">
+              <h4>Theresa Webb</h4>
+              <p>Trainer</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer tem-text-color">
-        <div class="footer-container display-grid">
-            <div class="fitness">
-                <h1 class="fitness-heading">Fitness</h1>
-                <p class="fitness-text">We believe fitness should be accessible to everyone,
-                    everywhere, regardless of income or access to a gym. With
-                    hundreds of professional workouts.</p>
-            </div>
-            <div class="get-start">
-                <h3 class="get-start-titale">get started</h3>
-                <ul class="footer-list">
-                    <li class="footer-list-item">Service</li>
-                    <li class="footer-list-item">Contact Us</li>
-                    <li class="footer-list-item">Affiliate Program</li>
-                    <li class="footer-list-item">About Us</li>
-                </ul>
-            </div>
-            <div class="get-start">
-                <h3 class="get-start-titale">get started</h3>
-                <ul class="footer-list">
-                    <li class="footer-list-item">Fitness</li>
-                    <li class="footer-list-item">Platform</li>
-                    <li class="footer-list-item">Workout Libary</li>
-                    <li class="footer-list-item">App Design</li>
-                </ul>
-            </div>
+      <div class="footer-container display-grid">
+        <div class="fitness">
+          <h1 class="fitness-heading">Fitness</h1>
+          <p class="fitness-text">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym. With hundreds of
+            professional workouts.
+          </p>
         </div>
-        <hr class="line">
-        <div class="copy-right">
-            <p class="text">All right reserved @Fitness 2024</p>
+        <div class="get-start">
+          <h3 class="get-start-titale">get started</h3>
+          <ul class="footer-list">
+            <li class="footer-list-item">Service</li>
+            <li class="footer-list-item">Contact Us</li>
+            <li class="footer-list-item">Affiliate Program</li>
+            <li class="footer-list-item">About Us</li>
+          </ul>
         </div>
+        <div class="get-start">
+          <h3 class="get-start-titale">get started</h3>
+          <ul class="footer-list">
+            <li class="footer-list-item">Fitness</li>
+            <li class="footer-list-item">Platform</li>
+            <li class="footer-list-item">Workout Libary</li>
+            <li class="footer-list-item">App Design</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="line" />
+      <div class="copy-right">
+        <p class="text">All right reserved @Fitness 2024</p>
+      </div>
     </footer>
-</body>
-
+    <script src="./scripts/app.js"></script>
+  </body>
 </html>
